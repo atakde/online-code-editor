@@ -55,3 +55,14 @@ iframe {
 .button-container>button {
   margin-right: 10px;
 }
+
+@media screen and (max-width: 900px) {
+  .boxes {
+    flex-direction: column;
+  }
+
+  .cm-s-monokai.CodeMirror {
+    max-height: 200px;
+  }
+}
+
